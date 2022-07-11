@@ -1,25 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import { Outlet, Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+        <Navbar />
+        <h2>Aditya Tadimeti</h2>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+            I'm a second year student at Stanford University studying Computer Science and Math. 
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+        <p>
+            I like to do impactful work in meaningful spaces. I'm broadly interested in NLP, Crypto, Neuroscience, and Sustainability. 
+            {/* I'm interested in leveraging state-of-the-art technology to work on  */}
+        </p>
+
+        <p>
+            Contact me at tadimeti [at] stanford [dot] edu.
+        </p>
+      
+      <Outlet />
     </div>
   );
 }
 
 export default App;
+
