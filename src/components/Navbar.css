@@ -1,0 +1,15 @@
+.header{
+  text-align: center;
+  padding-top: 2%;
+  padding-left: 33%;
+}
+
+.link{
+    padding: 1%;
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    text-decoration: underline;
+}

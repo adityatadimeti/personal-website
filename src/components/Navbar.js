@@ -1,11 +1,12 @@
 import { Outlet, Link } from "react-router-dom";
+import './Navbar.css';
 export default function Navbar() {
     return (
-        <div>
+        <div class = "header">
         
-            <Link to="/">Home</Link> | {" "}
-            <Link to="/Projects">Projects</Link> |{" "}
-            <Link to="/Posts">Posts</Link>
+            <Link class = "link" to="/">Home</Link>  
+            <Link class = "link" to="/Projects">Projects</Link> 
+            <Link class = "link" to="/Posts">Posts</Link>
         </div>
     );
 }
