@@ -3,6 +3,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { Outlet, Link } from "react-router-dom";
 
+
+
 function App() {
   return (
     <div>
@@ -20,6 +22,13 @@ function App() {
 
           <p >
             Contact me at tadimeti [at] stanford [dot] edu.
+          </p>
+
+          <p >
+            <a href="https://www.linkedin.com/in/adityatadimeti/" target="_blank">LinkedIn</a> {"| " }
+            <a href="https://github.com/adityatadimeti/" target="_blank">GitHub</a> {"| " } 
+            <a href="resume.pdf" target="_blank">Resume</a> {"| " }           
+
           </p>
         </div>
       

@@ -4,7 +4,10 @@ function Posts() {
   return (
     <div>
         <Navbar />
-        <h2>Posts</h2>
+        <div class = "text">
+            <h2>Posts</h2>
+        </div>
+        
       
     </div>
   );

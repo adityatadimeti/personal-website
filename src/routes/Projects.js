@@ -4,9 +4,9 @@ function Projects() {
   return (
     <div>
         <Navbar />
-        <h2>Projects</h2>
-        
-      
+        <div class = "text">
+            <h2>Projects</h2>
+        </div>
     </div>
   );
 }
