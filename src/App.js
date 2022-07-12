@@ -2,10 +2,21 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import { Outlet, Link } from "react-router-dom";
+import React, { useState } from 'react';
+import resume from './resume.pdf';
+import { Document, Page, pdfjs } from "react-pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 
 function App() {
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
+
   return (
     <div>
         <Navbar />
@@ -27,9 +38,16 @@ function App() {
           <p >
             <a href="https://www.linkedin.com/in/adityatadimeti/" target="_blank">LinkedIn</a> {"| " }
             <a href="https://github.com/adityatadimeti/" target="_blank">GitHub</a> {"| " } 
-            <a href="resume.pdf" target="_blank">Resume</a> {"| " }           
-
+            <a href={resume} target="_blank">Resume</a>
+            {/* <a href="../public/resume.pdf" target="_blank">Resume</a>           */}
           </p>
+
+          {/* <Document file={resume} onLoadSuccess={onDocumentLoadSuccess}>
+            <Page pageNumber={pageNumber} />
+          </Document>
+          <p>
+            Page {pageNumber} of {numPages}
+          </p> */}
         </div>
       
       <Outlet />
