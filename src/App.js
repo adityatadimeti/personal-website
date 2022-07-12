@@ -12,7 +12,7 @@ function App() {
         <div class = "text">
           <h2 >Aditya Tadimeti</h2>
           <p>
-            I'm a second year student at Stanford University studying Computer Science and Math.
+            I'm an incoming second year student at Stanford University studying Computer Science and Math.
           </p>
 
           <p>
