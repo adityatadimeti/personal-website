@@ -5,7 +5,7 @@ export default function Navbar() {
         <div class = "header">
         
             <Link class = "link" to="/">Home</Link>  
-            <Link class = "link" to="/Projects">Projects</Link> 
+            <Link class = "link" to="/Portfolio">Portfolio</Link> 
             <Link class = "link" to="/Posts">Posts</Link>
         </div>
     );

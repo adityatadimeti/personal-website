@@ -8,8 +8,9 @@ import {
 import { HashRouter as Router } from 'react-router-dom'
 import App from './App';
 import Posts from './routes/Posts';
-import Projects from './routes/Projects';
+import Portfolio from './routes/Portfolio';
 import reportWebVitals from './reportWebVitals';
+import Stanford from './routes/Education/Stanford';
 
 const root = ReactDOM.createRoot(
   document.getElementById("root")
@@ -19,7 +20,8 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
         <Route path="posts" element={<Posts />} />
-        <Route path="projects" element={<Projects />} />
+        <Route path="portfolio" element={<Portfolio />} />
+          <Route path = "portfolio/stanford" element = {<Stanford/>}/>
         <Route
           path="*"
           element={

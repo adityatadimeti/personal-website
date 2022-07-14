@@ -1,0 +1,19 @@
+.textlink{
+    text-decoration: none;
+    color: black;
+}
+.textlink:hover{
+    text-decoration: underline;
+}
+
+.text{
+    padding-top: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .sub{
+    padding-left: 25%;
+    padding-top: 0.5cm;
+  }
+
