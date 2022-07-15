@@ -1,5 +1,6 @@
 import Navbar from "../../components/Navbar";
 import { Outlet, Link } from "react-router-dom";
+import "../../components/Navbar.css";
 function Stanford() {
   return (
     <div>
@@ -8,7 +9,10 @@ function Stanford() {
             <h2>Stanford</h2>
 
             <p>
-              Coursework
+              I'm planning on majoring in Computer Science and minoring in Math. Within the CS major, I'm considering concentrating in AI, Systems, or an Individually Designed path.
+            </p>
+            <p>
+              Coursework <Link class = "textlink" to="/Posts/CourseReviews"> (Reviews)</Link>
 
               <ul>
                 <li>
@@ -87,6 +91,18 @@ function Stanford() {
 
             <p>
               Organizations
+
+              <ul>
+                <li>
+                  Club Golf (September 2021 —). I'm the Vice President of Stanford's Club Golf team. I helped restart the team along with 3 other friends, and we grew it to 50+ members. We organized (and won!) the inaugral <Link class = "textlink" to="https://stanfordclubsports.com/documents/2022/4/12/The_Axe_Cup_Results.pdf">Axe Cup </Link>  
+                   against Berkeley's team, negotiated with 
+                  the course for weekly tee times for members, and managed a budget of ~$10k. We're planning to compete on the national circuit next year — if you're interested in joining us, please contact me! 
+                </li>
+
+                <li>
+                  Section Leading (March 2022 —). I'm a Section Leader for CS106A (Python) and CS106B (C++) in the CS department. Responsibilities include holding weekly discussion sections to review concepts, leading Office Hours, and grading assignments and exams.
+                </li>
+              </ul>
             </p>
         </div>
         

@@ -15,11 +15,11 @@ function Portfolio() {
         Education
         <ul>
           <li>
-            <Link class = "textlink" to="/Portfolio/Stanford">Stanford University</Link> 
+            <Link class = "textlink" to="/Portfolio/Stanford">Stanford University (September '21—)</Link> 
           </li>
 
           <li>
-            The Harker School
+            The Harker School (August '17 — May '21)
           </li>
 
         </ul>
@@ -29,11 +29,11 @@ function Portfolio() {
         Experience
         <ul>
           <li>
-            Oracle
+            Oracle (June '22 — September '22)
           </li>
 
           <li>
-            Project Ronin
+            Project Ronin (May '22 — June '22)
           </li>
           
         </ul>

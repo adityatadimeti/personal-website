@@ -13,3 +13,5 @@
 .link:hover{
     text-decoration: underline;
 }
+
+ul li { padding: 5px 0px; }
