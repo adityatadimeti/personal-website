@@ -12,7 +12,7 @@ function Harker() {
                 I attended Harker for 7 years, between 6th and 12th grade. 
             </p>
             <p>
-              Awards
+              Honors
                 <ul>
                     <li>
                         2x Regional Science Fair 1st place (<a class = "textlink" target = "_blank" href="https://science-fair.org/database/project_awards.php?schoolname=Harker+School-Upper+Campus&school_year=1819&school_year=1819">2019</a>,  
@@ -21,7 +21,10 @@ function Harker() {
                        
                     </li>
                     <li>
-                        2x California Science and Engineering Fair Finalist (<a class = "textlink" target = "_blank" href="https://csef.usc.edu/History/2019/Projects/S1124.pdf">2019</a>, <a class = "textlink" target = "_blank" href="https://csef.usc.edu/History/2020/Quals.html">2020</a>)
+                        2x California Science and Engineering Fair Finalist (<a class = "textlink" target = "_blank" href="https://csef.usc.edu/History/2019/Projects/S1124.pdf">2019 </a>
+                        &#91;<a class = "textlink" target = "_blank" href="https://emerginginvestigators.org/articles/the-effects-of-different-aquatic-environments-on-the-rate-of-polyethylene-biodegradation-by-em-bacillus-subtilis-em">JEI</a>, 
+                        <a class = "textlink" target = "_blank" href=" https://static1.squarespace.com/static/56243822e4b0007a000ea37e/t/5ed01c33fa7bcf673aceb7e1/1590697030168/2020%2BCJSJ%2BJournal.pdf"> CJSJ</a>&#93;, 
+                        <a class = "textlink" target = "_blank" href="https://csef.usc.edu/History/2020/Quals.html"> 2020</a>)
 
                         
                     </li>
@@ -37,6 +40,10 @@ function Harker() {
                     <li>
                     <a class = "textlink" target = "_blank" href="https://harkeraquila.com/12332/news/students-react-to-new-awards-system/">Love of Learning</a>, National Merit Finalist, National AP Scholar 
                     </li>
+
+                   
+
+                    
 
                     
 
