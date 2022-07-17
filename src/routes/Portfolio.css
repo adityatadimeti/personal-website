@@ -1,9 +1,18 @@
 .textlink{
     text-decoration: none;
-    color: black;
+    color: #3B719F;
 }
 .textlink:hover{
     text-decoration: underline;
+}
+
+.subtlelink{
+    text-decoration: none;
+    color: black;
+}
+
+.subtlelink:hover{
+  color: #3B719F;
 }
 
 .text{

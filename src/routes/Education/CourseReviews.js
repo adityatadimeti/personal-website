@@ -9,7 +9,7 @@ function CourseReviews() {
             <h2>Stanford Course Reviews</h2>
 
             <p>
-                Here are my personal reviews on the courses I've taken at Stanford. Note that this purely reflects my experiences — <a href="https://dictionary.cambridge.org/us/dictionary/english/ymmv#:~:text=Meaning%20of%20YMMV%20in%20English,better%2C%20but%20of%20course%20YMMV." target = "_blank" class = "textlink">YMMV</a>.
+                Here are my personal reviews on the courses I've taken at Stanford. Note that this purely reflects my experiences — <a href="https://dictionary.cambridge.org/us/dictionary/english/ymmv#:~:text=Meaning%20of%20YMMV%20in%20English,better%2C%20but%20of%20course%20YMMV." target = "_blank" class = "subtlelink">YMMV</a>.
             </p>
 
             <h4>
@@ -22,42 +22,7 @@ function CourseReviews() {
 
                   <ul>
 
-                    <li>
-                      CS 142: Web Applications
-
-                      <ul>
-
-                        <li>
-                            Utility: 3.5/5
-                        </li>
-
-                        <li>
-                            Difficulty: 5/5
-                        </li>
-
-                        <li>
-                            Enjoyment: 1.5/5
-                        </li>
-
-                        <li>
-                            This class was... a lot. Carta reviews were pretty cautionary: unclear instruction coupled with esoteric exams and vague 
-                            assignment specs make for an overall negative experience. My experiences were largely similar. I would say 
-                            that I thought the Photo Sharing assignments were where I learned the most. The lectures are usually unrelated
-                            to the current assignment, but they're directly related to exam content (which covered entirely theoretical material
-                            that I generally felt had low practical utility). Mendel Rosenblum does post all his past exams, which was 
-                            transparent and useful, so you know what to expect. I took it alone, and looking back I wish I had more friends to collaborate with 
-                            during the later weeks as the assignments became increasingly challenging. The course's open internet / Stack Overflow policy was 
-                            a blessing. 
-
-                            <p>
-                                Utility of 3.5 because the assignments were directly relevant to web development skills, but I felt the lecture/exam content was 
-                                too theoretical to be useful. Probably would take again, but only if I had more friends to lean on.
-                                
-                            </p>
-                        </li>
-                      </ul>
-                      
-                    </li>
+                    
 
                     <li>
                       CS 103: Mathematical Foundations of Computing
@@ -136,6 +101,46 @@ function CourseReviews() {
                             just maybe ~2 hours ish of quizzes / writeups. 
                         </li>
                       </ul>
+                    </li>
+
+                    <li>
+                      CS 142: Web Applications
+
+                      <ul>
+
+                        <li>
+                            Utility: 3.5/5
+                        </li>
+
+                        <li>
+                            Difficulty: 5/5
+                        </li>
+
+                        <li>
+                            Enjoyment: 1.5/5
+                        </li>
+
+                        <li>
+                        {/*  */}
+                         
+                            This class was... a lot. <a class = "subtlelink" target = "_blank" href="https://carta-beta.stanford.edu/">Carta </a>
+                            reviews were pretty cautionary: unclear instruction coupled with esoteric exams and vague 
+                            assignment specs make for an overall negative experience. My experiences were largely similar. I would say 
+                            that I thought the Photo Sharing assignments were where I learned the most. The lectures are usually unrelated
+                            to the current assignment, but they're directly related to exam content (which covered entirely theoretical material
+                            that I generally felt had low practical utility). Mendel Rosenblum does post all his past exams, which was 
+                            transparent and useful, so you know what to expect. I took it alone, and looking back I wish I had more friends to collaborate with 
+                            during the later weeks as the assignments became increasingly challenging. The course's open internet / Stack Overflow policy was 
+                            a blessing. 
+
+                            <p>
+                                Utility of 3.5 because the assignments were directly relevant to web development skills, but I felt the lecture/exam content was 
+                                too theoretical to be useful. Probably would take again, but only if I had more friends to lean on.
+                                
+                            </p>
+                        </li>
+                      </ul>
+                      
                     </li>
 
                   </ul>
@@ -252,8 +257,7 @@ function CourseReviews() {
                         <li>
                             Iconic intro CS course. Made lots of friends through this and got a rigorous introduction to C++. 
                             The content was presented in an interesting and engaging way. Also taught me time management: 
-                            this was my first ever class where assignments were due weekly instead of daily (much different
-                            than my high school experiences). 
+                            this was my first ever class where all assignments were due weekly. 
                             
                         </li>
                       </ul>
@@ -318,7 +322,7 @@ function CourseReviews() {
                         </li>
 
                         <li>
-                            Difficulty: 0/5
+                            Difficulty: 2/5
                         </li>
 
                         <li>

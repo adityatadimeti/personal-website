@@ -93,15 +93,18 @@ function Stanford() {
               Organizations
 
               <ul>
-                <li>
-                  Club Golf (September 2021 —). I'm the Vice President of Stanford's Club Golf team. I helped restart the team along with 3 other friends, and we grew it to 50+ members. We organized (and won!) the inaugral <Link class = "textlink" to="https://stanfordclubsports.com/documents/2022/4/12/The_Axe_Cup_Results.pdf">Axe Cup </Link>  
-                   against Berkeley's team, negotiated with 
-                  the course for weekly tee times for members, and managed a budget of ~$10k. We're planning to compete on the national circuit next year — if you're interested in joining us, please contact me! 
-                </li>
 
                 <li>
-                  Section Leading (March 2022 —). I'm a Section Leader for CS106A (Python) and CS106B (C++) in the CS department. Responsibilities include holding weekly discussion sections to review concepts, leading Office Hours, and grading assignments and exams.
+                  <a class = "textlink" target = "_blank" href="https://cs198.stanford.edu/">Section Leading </a> (March 2022 —). I'm a Section Leader for CS106A (Python) and CS106B (C++) in the CS department. Responsibilities include holding weekly discussion sections to review concepts, leading Office Hours, and grading assignments and exams.
                 </li>
+
+
+                <li>
+                  <a class = "textlink" target = "_blank" href="https://stanfordclubsports.com/sports/golf">Club Golf </a> (September 2021 —). I'm the Vice President of Stanford's Club Golf team. I helped restart the team along with 3 other friends, and we grew it to 50+ members. We organized (and won!) the inaugral <a class = "subtlelink" target = "_blank" href="https://stanfordclubsports.com/documents/2022/4/12/The_Axe_Cup_Results.pdf">Axe Cup </a>  
+                   against Berkeley's team, negotiated with the course for weekly tee times for members, and managed a budget of ~$10k. We're planning to compete on the national circuit next year — if you're interested in joining us, please contact me! 
+                </li>
+
+                
               </ul>
             </p>
         </div>
