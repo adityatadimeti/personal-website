@@ -40,13 +40,6 @@ function Harker() {
                     <li>
                     <a class = "textlink" target = "_blank" href="https://harkeraquila.com/12332/news/students-react-to-new-awards-system/">Love of Learning</a>, National Merit Finalist, National AP Scholar 
                     </li>
-
-                   
-
-                    
-
-                    
-
                     
                 </ul>
             </p>
@@ -57,8 +50,10 @@ function Harker() {
               <ul>
 
                 <li>
-                    Mitra Family Humanities Research Scholar 
+                <Link class = "textlink" to="/Posts/Writing"> Mitra Family Humanities Research Scholar</Link>
                 </li>
+
+        
              
                 <li>
                   Varsity Golf (<a class = "textlink" target = "_blank" href="https://harkeraquila.com/59249/uncategorized/boys-and-girls-golf-teams-win-ccs-championships/">CCS Champions</a>) 

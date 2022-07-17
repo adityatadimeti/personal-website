@@ -13,6 +13,7 @@ import reportWebVitals from './reportWebVitals';
 import Stanford from './routes/Education/Stanford';
 import CourseReviews from './routes/Education/CourseReviews';
 import Harker from './routes/Education/Harker';
+import Writing from './routes/Writing';
 
 const root = ReactDOM.createRoot(
   document.getElementById("root")
@@ -23,6 +24,7 @@ root.render(
       <Route path="/" element={<App />} />
         <Route path="posts" element={<Posts />} />
           <Route path = "posts/coursereviews" element = {<CourseReviews/>}/>
+          <Route path = "posts/writing" element = {<Writing/>}/>
         <Route path="portfolio" element={<Portfolio />} />
           <Route path = "portfolio/stanford" element = {<Stanford/>}/>
           <Route path = "portfolio/harker" element = {<Harker/>}/>
