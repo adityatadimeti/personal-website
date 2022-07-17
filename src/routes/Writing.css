@@ -1,0 +1,27 @@
+
+.textlink{
+    text-decoration: none;
+    color: #3B719F;
+}
+.textlink:hover{
+    text-decoration: underline;
+}
+
+.subtlelink{
+    text-decoration: none;
+    color: black;
+}
+
+.subtlelink:hover{
+  color: #3B719F;
+}
+
+.workstext{
+    padding-left: 5%;
+  }
+
+  .sub{
+    padding-left: 25%;
+    padding-top: 0.5cm;
+  }
+
