@@ -41,7 +41,7 @@ function Writing() {
 
             <p className='workstext'>
                 I researched some of James Joyce's work, primarily focusing on <i>A Portrait of the Artist as a Young Man</i>, and the influence of Ireland's
-                historical context in the works' themes. This was the culminating work my AP English Literature.
+                historical context in the works' themes. 
             </p>
             
             <p className='workstext'>
