@@ -15,7 +15,7 @@ function Portfolio() {
         Education
         <ul>
           <li>
-            <Link class = "textlink"  to="/Portfolio/Stanford">Stanford University (September '21—)</Link> 
+            <Link class = "textlink"  to="/Portfolio/Stanford">Stanford University (September '21 —)</Link> 
           </li>
 
           <li>
@@ -29,11 +29,11 @@ function Portfolio() {
         Experience
         <ul>
           <li>
-            Oracle (June '22 — September '22)
+            <Link class = "textlink"  to="/Portfolio/Oracle">Oracle (June '22 — September '22)</Link> 
           </li>
 
           <li>
-            Project Ronin (May '22 — June '22)
+            <Link class = "textlink"  to="/Portfolio/Ronin">Project Ronin (May '22 — June '22) </Link>
           </li>
           
         </ul>
@@ -54,7 +54,7 @@ function Portfolio() {
           </li>
 
           <li>
-            This website!
+            <a href="https://github.com/adityatadimeti/personal-website" target="_blank" class="textlink"> This website! </a>
           </li>
         </ul>
 

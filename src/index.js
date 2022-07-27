@@ -14,6 +14,8 @@ import Stanford from './routes/Education/Stanford';
 import CourseReviews from './routes/Education/CourseReviews';
 import Harker from './routes/Education/Harker';
 import Writing from './routes/Writing';
+import Oracle from './routes/Experience/Oracle';
+import Ronin from './routes/Experience/Ronin';
 
 const root = ReactDOM.createRoot(
   document.getElementById("root")
@@ -28,6 +30,8 @@ root.render(
         <Route path="portfolio" element={<Portfolio />} />
           <Route path = "portfolio/stanford" element = {<Stanford/>}/>
           <Route path = "portfolio/harker" element = {<Harker/>}/>
+          <Route path = "portfolio/oracle" element = {<Oracle/>}/>
+          <Route path = "portfolio/ronin" element = {<Ronin/>}/>
           
         <Route
           path="*"
