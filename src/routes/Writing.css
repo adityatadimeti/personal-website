@@ -1,27 +1,26 @@
-
-.textlink{
+.textlink {
     text-decoration: none;
     color: #3B719F;
 }
-.textlink:hover{
+
+.textlink:hover {
     text-decoration: underline;
 }
 
-.subtlelink{
+.subtlelink {
     text-decoration: none;
     color: black;
 }
 
-.subtlelink:hover{
-  color: #3B719F;
+.subtlelink:hover {
+    color: #3B719F;
 }
 
-.workstext{
+.workstext {
     padding-left: 5%;
-  }
+}
 
-  .sub{
+.sub {
     padding-left: 25%;
     padding-top: 0.5cm;
-  }
-
+}

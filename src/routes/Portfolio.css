@@ -1,29 +1,32 @@
-.textlink{
-    text-decoration: none;
-    color: #3B719F;
-}
-.textlink:hover{
-    text-decoration: underline;
-}
-
-.subtlelink{
-    text-decoration: none;
-    color: black;
-}
-
-.subtlelink:hover{
+.textlink {
+  text-decoration: none;
   color: #3B719F;
 }
 
-.text{
-    padding-top: 5%;
-    padding-left: 25%;
-    padding-right: 25%;
-  }
+.textlink:hover {
+  text-decoration: underline;
+}
 
-  .sub{
-    padding-left: 25%;
-    padding-top: 0.5cm;
-  }
+.subtlelink {
+  text-decoration: none;
+  color: black;
+}
 
-  ul li { padding: 5px 0px; }
+.subtlelink:hover {
+  color: #3B719F;
+}
+
+.text {
+  padding-top: 5%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.sub {
+  padding-left: 25%;
+  padding-top: 0.5cm;
+}
+
+ul li {
+  padding: 5px 0px;
+}
