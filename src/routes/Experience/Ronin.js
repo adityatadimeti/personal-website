@@ -9,7 +9,7 @@ function Ronin() {
                 <h2>Project Ronin</h2>
 
                 <p>
-                    I worked full time as an NLP intern for Project Ronin in the Data Science team between May and June 2022. I will return full time in September.
+                    I worked full time as an NLP intern for Project Ronin in the Data Science team between April and June 2022. I will return full time in September.
                 </p>
 
                 <p>
