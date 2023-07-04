@@ -27,7 +27,7 @@ function App() {
         </p>
 
         <p>
-          I like to do impactful work in meaningful spaces. I'm broadly interested in NLP, Crypto, Neuroscience, and Sustainability.
+          I like to do impactful work in meaningful spaces. I'm broadly interested in NLP, Computer Systems, and Sustainability.
           {/* I'm interested in leveraging state-of-the-art technology to work on  */}
         </p>
 
