@@ -23,7 +23,7 @@ function App() {
       <div class="text">
         <h2 >Aditya Tadimeti</h2>
         <p>
-          I'm an incoming second year student at <Link class="textlink" to="/Portfolio/Stanford">Stanford University</Link>  studying Computer Science and Math.
+          I'm an incoming third year student at <Link class="textlink" to="/Portfolio/Stanford">Stanford University</Link>  studying Computer Science and Math.
         </p>
 
         <p>
