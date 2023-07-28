@@ -9,14 +9,15 @@ function Stanford() {
         <h2>Stanford</h2>
 
         <p>
-          I'm planning on majoring in Computer Science and minoring in Math. Within the CS major, I'm considering concentrating in AI, Systems, or an Individually Designed path.
+          I'm majoring in Computer Science and minoring in Math. Within the CS major, I'm concentrating in Systems, and will graduate with a Masters degree in AI.
         </p>
         <p>
-          Coursework <Link class="textlink" to="/Posts/CourseReviews"> (Reviews)</Link>
+          Coursework 
+          {/* <Link class="textlink" to="/Posts/CourseReviews"> (Reviews)</Link> */}
 
           <ul>
 
-            <li>
+            {/* <li>
               Summer 2022
 
               <ul>
@@ -26,9 +27,77 @@ function Stanford() {
                 </li>
 
               </ul>
+            </li> */}
+
+            <li>
+              Spring 2023
+
+              <ul>
+
+                <li>
+                  ENGR 76: Information Theory
+                </li>
+
+                <li>
+                  CS 161: Design and Analysis of Algorithms
+                </li>
+
+                <li>
+                  CS 144: Introduction to Computer Networking
+                </li>
+
+                <li>
+                  PWR 2: The Stories We Tell: Restorying Possible Futures
+                </li>
+
+              </ul>
             </li>
+            <li>
+              Winter 2023
 
+              <ul>
 
+                <li>
+                  CS 224N: Natural Language Processing with Deep Learning
+                </li>
+
+                <li>
+                  EMED 127: Healthcare Leadership
+                </li>
+
+                <li>
+                  Math 77Q: Probability and Gambling
+                </li>
+
+                <li>
+                  Stats 200: Introduction to Statistical Inference
+                </li>
+
+              </ul>
+            </li>
+            <li>
+              Fall 2022
+
+              <ul>
+
+                <li>
+                  CS 111: Operating Systems Principles
+                </li>
+
+                <li>
+                  CS 221: Artificial Intelligence: Principles and Techniques
+                </li>
+
+                <li>
+                  Math 104: Applied Matrix Theory
+                </li>
+
+                <li>
+                  NBIO 227: Understanding Techniques in Neuroscience
+                </li>
+
+              </ul>
+            </li>
             <li>
               Spring 2022
 
@@ -91,11 +160,12 @@ function Stanford() {
                 </li>
 
                 <li>
-                  COLLEGE 101: Why College? Your Education and the Good Life
+                  COLLEGE 101: Why College?  
                 </li>
 
                 <li>
                   MATH 51: Linear Algebra, Multivariable Calculus, and Modern Applications
+                  {/* MATH 51: Linear Algebra & Multivariable Calculus */}
                 </li>
 
               </ul>
