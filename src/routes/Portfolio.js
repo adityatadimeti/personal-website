@@ -45,13 +45,13 @@ function Portfolio() {
           <li>
             <Link class="textlink" to="/Portfolio/PhotoSharing">Photo Sharing App  (March '22 — June '22) </Link>
           </li>
-          <li>
+          {/* <li>
             <Link class="textlink" to="/Portfolio/huffman">Huffman Encoder (November '21)</Link>
-          </li>
-
+          </li> */}
+{/* 
           <li>
             <Link class="textlink" to="/Portfolio/neuralnetwork">Neural Network from Scratch (January '20 — May '20) </Link>
-          </li>
+          </li> */}
 
           <li>
             <a href="https://github.com/adityatadimeti/personal-website" target="_blank" class="textlink"> This website! </a>
