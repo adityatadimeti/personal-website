@@ -30,7 +30,7 @@ function App() {
         <h2 >Aditya Tadimeti</h2>
         <p>
           {/* I'm a student at <Link class="textlink" to="/Portfolio/Stanford">Stanford University</Link>  studying Computer Science and Math. */}
-          I work at Cohere as a Member of Technical Staff. I'm on leave from Stanford University, where I study Computer Science and Math.
+            I work at <a class="textlink" href="https://cohere.com/" target="_blank">Cohere</a> as a Member of Technical Staff. I'm on leave from Stanford University, where I study Computer Science and Math.
         </p>
 
         <p>

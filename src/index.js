@@ -11,20 +11,11 @@ import Posts from './routes/Posts';
 import Portfolio from './routes/Portfolio';
 import reportWebVitals from './reportWebVitals';
 
-import Stanford from './routes/Education/Stanford';
-// import CourseReviews from './routes/Education/CourseReviews';
-import Harker from './routes/Education/Harker';
 import Writing from './routes/Writing';
 
 import Oracle from './routes/Experience/Oracle';
 import Ronin from './routes/Experience/Ronin';
 
-import NLPGroup from './routes/Research/NLPGroup';
-import Wildfire from './routes/Research/Wildfire';
-
-import PhotoSharing from './routes/Projects/PhotoSharing';
-import Huffman from './routes/Projects/Huffman';
-import NeuralNetwork from './routes/Projects/NeuralNetwork';
 
 const root = ReactDOM.createRoot(
   document.getElementById("root")
@@ -34,21 +25,13 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="posts" element={<Posts />} />
-      {/* <Route path="posts/coursereviews" element={<CourseReviews />} /> */}
+      <Route path="writing" element={<Writing />} />
       <Route path="posts/writing" element={<Writing />} />
       <Route path="portfolio" element={<Portfolio />} />
-      <Route path="portfolio/stanford" element={<Stanford />} />
-      <Route path="portfolio/harker" element={<Harker />} />
 
       <Route path="portfolio/oracle" element={<Oracle />} />
       <Route path="portfolio/ronin" element={<Ronin />} />
 
-      <Route path="portfolio/photosharing" element={<PhotoSharing />} />
-      <Route path="portfolio/huffman" element={<Huffman />} />
-      <Route path="portfolio/neuralnetwork" element={<NeuralNetwork />} />
-
-      <Route path="portfolio/nlpgroup" element={<NLPGroup />} />
-      <Route path="portfolio/wildfire" element={<Wildfire />} />
 
       <Route
         path="*"

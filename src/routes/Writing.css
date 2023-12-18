@@ -16,11 +16,22 @@
     color: #3B719F;
 }
 
-.workstext {
-    padding-left: 5%;
-}
-
 .sub {
     padding-left: 25%;
     padding-top: 0.5cm;
 }
+
+.postEntry {
+    display: flex;
+    margin-top: 50px; /* Adjust as needed */
+  }
+  
+  .postMonth {
+    width: 80px; /* Adjust width as needed */
+    margin-right: 20px; /* Adjust space between month and text as needed */
+    text-align: left; /* Align text to the right */
+  }
+  
+
+
+  
